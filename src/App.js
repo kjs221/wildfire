@@ -484,9 +484,9 @@ const WildfireDashboard = () => {
   };
   const navButtons = [
     { id: 'fire', label: 'Fire In The Hole', icon: '🔥' },
-    { id: 'log', label: 'Add a log', icon: '⊕' },
-    { id: 'smoke', label: "Where There's Smoke", icon: '📅' },
-    { id: 'hose', label: 'Get the Hose', icon: '▦' },
+    { id: 'log', label: 'Add a log', icon: '➕' },
+    { id: 'smoke', label: "Where There's Smoke", icon: '📃' },
+    { id: 'hose', label: 'Get the Hose', icon: '📅' },
     { id: 'sanity', label: 'Sanity', icon: '🧠' },
   ];
   if (loading) {
@@ -615,7 +615,7 @@ const WildfireDashboard = () => {
                     className="w-1/3 py-3 text-white font-semibold text-base"
                     style={{ borderRadius: '9px', background: '#fcc495' }}
                   >
-                    Preview Items
+                    Clean It Up
                   </button>
                   {showPreview && (
                     <button
