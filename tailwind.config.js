@@ -1,14 +1,11 @@
-x · CSS
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
- 
-body {
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
- 
-* {
-  box-sizing: border-box;
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "./public/index.html"
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
 }
