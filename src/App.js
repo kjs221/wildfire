@@ -1281,7 +1281,7 @@ const WildfireDashboard = () => {
           <div className="bg-white p-8 text-center max-w-sm" style={{ borderRadius: '9px' }}>
             <p style={{ fontFamily: "'Ranchers', cursive", fontSize: '32px' }} className="text-blue-600 mb-4">You did it!</p>
             <img src={rewardAnimal.url} alt={rewardAnimal.name} className="w-80 h-64 object-cover mb-4 border-4 border-purple-600" style={{ borderRadius: '9px' }} />
-            <p className="text-gray-600 text-lg">A wild {rewardAnimal.name} appears! 🎉</p>
+            <p className="text-gray-600 text-lg">A wild {rewardAnimal.name} appears!</p>
           </div>
         </div>
       )}
