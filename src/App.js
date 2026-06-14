@@ -560,7 +560,7 @@ const WildfireDashboard = () => {
                   key={btn.id}
                   onClick={() => setCurrentView(btn.id)}
                   className={`px-6 py-3 text-base font-medium transition-all flex items-center gap-2 border-2 ${currentView === btn.id ? 'shadow-lg' : 'bg-white hover:shadow-md'}`}
-                  style={{ borderRadius: '9px', border: '2px solid #4e8f7b', color: '#e97b84', background: currentView === btn.id ? '#f0fce8' : undefined }}
+                  style={{ borderRadius: '9px', border: '2px solid #b872af', color: '#e97b84', background: currentView === btn.id ? '#f0fce8' : undefined }}
                 >
                   <span className="flex-shrink-0">{btn.icon}</span>{btn.label}
                 </button>
