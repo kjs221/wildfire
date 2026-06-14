@@ -39,7 +39,7 @@ const WildfireDashboard = () => {
     { name: 'sugar glider', url: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=500&h=500&fit=crop' },
     { name: 'highland cow', url: 'https://images.unsplash.com/photo-1564523072006-0f64ef1c09de?w=500&h=500&fit=crop' },
     { name: 'pika', url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ochotona_hyperborea_yesoensis.jpg/320px-Ochotona_hyperborea_yesoensis.jpg' },
-    { name: 'fennec fox', url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Fennec_Fox_Photographed_at_Africa_Alive.jpg/320px-Fennec_Fox_Photographed_at_Africa_Alive.jpg' },
+    { name: 'fennec fox', url: 'https://upload.wikimedia.org/wikipedia/commons/9/9e/Fennec_Fox_Photographed_at_Africa_Alive.jpg' },
     { name: 'koala', url: 'https://images.unsplash.com/photo-1459751707576-f2a52dfb8ba5?w=500&h=500&fit=crop' },
     { name: 'aye aye', url: 'https://images.unsplash.com/photo-1496854496397-b6a895a09252?w=500&h=500&fit=crop' },
     { name: 'teacup pig', url: 'https://images.unsplash.com/photo-1614027164847-1b28cfe1df60?w=500&h=500&fit=crop' },
