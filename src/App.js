@@ -16,6 +16,7 @@ const WildfireDashboard = () => {
   const [timerSeconds, setTimerSeconds] = useState(0);
   const [timeEntries, setTimeEntries] = useState({});
 
+  // comment
   // Streams state
   const [streams, setStreams] = useState([
     { id: '1', name: 'SBAC', color: '#378ADD', capacity_hours: 20 },
