@@ -1407,7 +1407,7 @@ const WildfireDashboard = () => {
                           return (
                             <div key={task.id}>
                               <div className="flex items-center gap-2 py-0.5">
-                                <div className="w-40 flex-shrink-0 truncate text-sm text-gray-700 font-medium sticky left-0 pr-2" style={{ zIndex: 2, borderRadius: '4px', paddingLeft: '4px', background: 'rgba(249,250,0.6)' }} title={task.title}>{task.title}</div>
+                                <div className="w-40 flex-shrink-0 truncate text-sm text-gray-700 font-medium sticky left-0 pr-2" style={{ zIndex: 2, borderRadius: '4px', paddingLeft: '4px', background: 'rgba(249,250,251,0.6)' }} title={task.title}>{task.title}</div>
                                 <div className="relative flex-1 flex items-center" style={{ height: '17px' }}>
                                   <div className="relative w-full" style={{ height: '8px', background: '#e5e7eb', borderRadius: '4px' }}>
                                   {renderHolidayStripes()}
