@@ -159,6 +159,7 @@ const WildfireDashboard = () => {
     { name: 'koala', url: '/animals/koala.jpg' },
     { name: 'aye aye', url: '/animals/aye-aye.jpg' },
     { name: 'teacup pig', url: '/animals/teacup-pig.jpg' },
+    { name: 'civet', url: '/animals/civet.jpg'},
   ];
   const fetchProjects = async () => {
     try {
