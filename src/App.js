@@ -49,7 +49,7 @@ const WildfireDashboard = () => {
   const toggleBlackoutDay = (day) => {
     setBlackoutDays(prev => prev.includes(day) ? prev.filter(d => d !== day) : [...prev, day]);
   };
-
+  //
   // Sparks (Midnight Oil) state
   const [sparks, setSparks] = useState([]);
   const [sparkForm, setSparkForm] = useState({ title: '', startDate: '', endDate: '', estimatedHours: '', rate: '', paymentModel: 'flat', contactName: '', contactEmail: '', notes: '' });
