@@ -876,7 +876,7 @@ const WildfireDashboard = () => {
               {navButtons.map(btn => (
                 <button
                   key={btn.id}
-                  onClick={() => { setCurrentView(btn.id); setSelectedTask(null); }}}
+                  onClick={() => { setCurrentView(btn.id); setSelectedTask(null); }}
                   className={`px-3 py-2 text-sm font-medium transition-all flex items-center gap-1.5 border-2 ${currentView === btn.id ? 'shadow-lg' : 'bg-white hover:shadow-md'}`}
                   style={{ borderRadius: '9px', border: '2px solid #b872af', color: '#e97b84', background: currentView === btn.id ? '#f9eef9' : undefined }}
                 >
