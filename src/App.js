@@ -2051,6 +2051,7 @@ const LifeFiresDashboard = () => {
                           );
                         })}
                         </div>
+                       </div>
                       </div>
                     </div>
                     </div>
